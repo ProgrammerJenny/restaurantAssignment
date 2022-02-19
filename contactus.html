@@ -15,35 +15,68 @@
     </p>
     <hr>
 
-</header>  
+</header>
 
 
 <body>
-    <form>    
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br>
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email"><br>
-    <label for="phone">Phone:</label>
-    <input type="text" id="phone" name="phone"><br> 
-    <label for="task">Reason for Inquiry:</label> 
-    <select name="task">
-        <option>Catering</option>
-        <option>Private Party</option>
-        <option>Feedback</option>
-        <option>Other</option>
-    </select>  
-    <br>
-    <label for="additionalinfo">Additional Information:</label>
-    <input type="text" id="additionalinfo" name="additionalinfo" 
-    width="20" height="8"><br> 
-    
+    <form>
+        <div align="center">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" style=" width:200px;"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" style=" width:200px;"><br>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" style=" width:200px;"><br>
+            <label for="task">Reason for Inquiry:</label>
+            <select name="task">
+                <option>Catering</option>
+                <option>Private Party</option>
+                <option>Feedback</option>
+                <option>Other</option>
+            </select>
+            <br>
+            <label for="additionalinfo">Additional Information:</label>
+            <input type="text" id="additionalinfo" name="additionalinfo" style="height:120px; width:200px;"><br>
+            <p>
+                <label for="status">Have you been to the restraurant?</label>
+                <input type="radio" name="status" value="No" checked default="No"id="sub">
+                <label for="sub">No</label>
+                <input type="radio" name="status" value="Yes"id="sub">
+                <label for="sub">Yes</label>            
+            </p>
+            <p>
+                <label>Best days to contact you:</label>
+
+                <input type="checkbox" name="M" id="M" value="M">
+                <label for="M">M</label>
+
+                <input type="checkbox" name="T" id="T" value="T">
+                <label for="T">T</label>
+
+                <input type="checkbox" name="W" id="W" value="W">
+                <label for="W">W</label>
+
+                <input type="checkbox" name="Th" id="Th" value="Th">
+                <label for="Th">Th</label>
+
+                <input type="checkbox" name="F" id="F" value="F">
+                <label for="F">F</label>
+
+            </p>
+            <p>
+            <br>
+            <input value="Send Request"type="submit">
+            </p>
+
+
+        </div>
     </form>
 </body> <!--  End Body -->
-<footer>
-    <hr>
+<footer align="center">
+        <hr>
     <p>101 Diablo Street,Orana, TX, 41234</p>
+    <p>123-456-7890</p>
     <hr>
-    </footer>
+</footer>
 
 </html>
