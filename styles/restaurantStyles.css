@@ -1,7 +1,7 @@
 
 
 * { 
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif ;
     background-color: lightblue; 
     color:green;
     
@@ -41,4 +41,19 @@ form {
 
 td {
   padding: 15px;
+}
+btn-primary
+{
+  background-color: darkblue;
+  color:white;
+  text-align: center;
+}
+.reviews{
+  font-family:cursive;
+  font-style: italic;
+  font-size: larger;
+  color:black
+}
+.review_links{
+  color:blue;
 }
