@@ -39,9 +39,7 @@ form {
   padding: 25px;
 }
 
-td {
-  padding: 15px;
-}
+
 btn-primary
 {
   background-color: darkblue;
@@ -56,4 +54,30 @@ btn-primary
 }
 .review_links{
   color:blue;
+}
+.review_links:hover{
+  font-weight:bold;
+  text-decoration: none;
+}
+
+
+td {
+  padding: 15px;
+} 
+
+.beverages {
+  font-size: 150%;
+   border: 2px solid white;
+  border-color: azure;
+}
+
+.rowstuff {
+  border: 2px solid white ;
+  border-color: azure;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color:black;
 }
