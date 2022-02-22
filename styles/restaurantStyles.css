@@ -2,34 +2,43 @@
 
 * { 
     font-family: Arial, Helvetica, sans-serif !important;
-    background-color: brown; 
-    color:black;
+    background-color: lightblue; 
+    color:green;
     
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    background-color: brown; 
-    color:blue;
+    background-color: darkblue; 
+    color:white;
 }
 
 header {
 
-    background-color: darkorange;
+    background-color: darkblue;
+    color:white;
     text-align: center;
     padding: 2px;
   }
 
 footer {
-    background-color: darkorange;
+    background-color: darkblue;
+    color:white;
     text-align: center;
     padding: 2px;
   }
 
-p {
+
+.footertext {
+  background-color: darkblue;
+  color:white;
+  text-align: center;
 
 }
 
-div {
-
+form {
+  padding: 25px;
 }
 
+td {
+  padding: 15px;
+}
