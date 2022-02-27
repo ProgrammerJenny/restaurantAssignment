@@ -66,18 +66,24 @@ td {
 } 
 
 .beverages {
-  font-size: 150%;
+  font-size: 100%;
    border: 2px solid white;
   border-color: azure;
 }
 
-.rowstuff {
+.tdstuff {
   border: 2px solid white ;
   border-color: azure;
 
 }
 
-tr:nth-child(even) {
+.td2stuff {
+  border: 2px solid white ;
+  border-color: azure;
+  background-color: darkblue;
+}
+
+.trstuff:nth-child(even) {
   background-color: #f2f2f2;
   color:black;
 }
