@@ -37,7 +37,7 @@
 </header>
 
 <body>
-    <form>
+  <!--  <form> -->
         <div align="center">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" style=" width:200px;"><br>
@@ -46,7 +46,7 @@
             <label for="phone">Phone:</label>
             <input type="text" id="phone" name="phone" style=" width:200px;"><br>
             <label for="task">Reason for Inquiry:</label>
-            <select name="task">
+            <select name="task" id="task">
                 <option>Catering</option>
                 <option>Private Party</option>
                 <option>Feedback</option>
@@ -57,9 +57,9 @@
             <input type="text" id="additionalinfo" name="additionalinfo" style="height:120px; width:200px;"><br>
             <p>
                 <label for="status">Have you been to the restraurant?</label>
-                <input type="radio" name="status" value="No" checked default="No" id="sub">
+                <input type="radio" name="status" value="No" checked default="No" id="beenHereNo">
                 <label for="sub">No</label>
-                <input type="radio" name="status" value="Yes" id="sub">
+                <input type="radio" name="status" value="Yes" id="beenHereYes">
                 <label for="sub">Yes</label>
             </p>
             <p>
@@ -85,10 +85,13 @@
                 <br>
                 <input id="submit" value="Send Request" type="submit">
             </p>
-
-
+            <br>
+            <input id="reset" value="Reset Form" type="submit">
+            <br>
+            <p id="errorMessage" style="color: red; ">
+            </p>
         </div>
-    </form>
+    <!-- </form> -->
 </body> <!--  End Body -->
 <footer align="center">
     <hr>
