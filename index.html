@@ -2,21 +2,32 @@
 <html>
 
 <style>
-.headertext
-{
-  background-color: darkblue;
-  color:white;
-  text-align: center;
-}
-
+    .headertext {
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+    }
 </style>
 
 
 <header>
-    <link rel="stylesheet" href="styles/restaurantStyles.css">
-     <!-- Compiled and minified JavaScript bootstrap from zybook7.13 -->
-   <script src="jquery-3.2.1.min.js"></script>
+    <!-- bootstrap from w3 school -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- for home -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    -->
+    <!-- for home -->
 
+
+    <link rel="stylesheet" href="styles/restaurantStyles.css">
+    <!-- Compiled and minified JavaScript bootstrap from zybook7.13 -->
+    <script src="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="restaurant.js"></script>
 
     <noscript>
@@ -27,11 +38,14 @@
     <h1>Jennifer's Fancy BBQ and Catering </h1>
     <hr>
     <p class="headertext">
-        <a  class="btn btn-primary"  role="button" href="index.html">Home</a>
+        <!-- Add home icon fas -->   
+        <a class="btn btn-primary" role="button" href="index.html"><i class="fas fa-house-user"></i>Home</a>
+        <!-- Add home icon fas -->   
+
         <a> </a>
-        <a class="btn btn-primary"  role="button" href="menu.html" class="headertext">Menu</a>
+        <a class="btn btn-primary" role="button" href="menu.html" class="headertext">Menu</a>
         <a> </a>
-        <a class="btn btn-primary"  role="button" href="contactus.html" class="headertext">Contact Us</a>
+        <a class="btn btn-primary" role="button" href="contactus.html" class="headertext">Contact Us</a>
         <a> </a>
     </p>
     <hr>
@@ -42,22 +56,24 @@
     <h1>
     </h1>
     <div>
-    <center>
-        <img align="middle" src="images/jennifersFancyBBQ.jpg" alt="bbq icon" width="400" height="150">
-    </center>
-    <p>Restaurant description</p>
-    <p>
-        A quite little place that serves good food.
+        <center>
+            <img align="middle" src="images/jennifersFancyBBQ.jpg" alt="bbq icon" width="400" height="150">
+        </center>
+        <p>Restaurant description</p>
+        <p>
+            A quite little place that serves good food.
 
 
 
-    </p>
+        </p>
     </div>
     <div>
         <p class="reviews">Read a recent review!</p>
-        <a class="review_links" target="_blank"  href="https://www.yelp.com/collection/FlUGJ-XDYSi6gyX0No9vLQ/Restraunt-Reviews">4-star-taste</a>
+        <a class="review_links" target="_blank"
+            href="https://www.yelp.com/collection/FlUGJ-XDYSi6gyX0No9vLQ/Restraunt-Reviews">4-star-taste</a>
         <a>,</a>
-        <a class="review_links"  target="_blank" href="https://www.yelp.com/biz/vinnys-italian-restaurant-trophy-club">1-star-price</a>
+        <a class="review_links" target="_blank"
+            href="https://www.yelp.com/biz/vinnys-italian-restaurant-trophy-club">1-star-price</a>
     </div>
 </body> <!--  End Body -->
 
